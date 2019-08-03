@@ -1,0 +1,14 @@
+.fa{
+  position: relative;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.items{
+  position: absolute;
+  right: -3px;
+  top: -17px;
+  background-color: orange;
+  color: #fff;
+  padding: 0px 5px;
+  border-radius: 50px;
+}

@@ -1,0 +1,14 @@
+<ul class="list" *ngFor="let category of items; let i = index">
+    <li>
+      <h1 class="category" (click)="toggler(i)"
+      >{{ category.categories.name }}
+      <span class="icon" [ngClass]="toggle[i] ? 'fa fa-caret-down': 'fa fa-caret-up'"></span></h1>
+      <div *ngIf="toggle[i]">
+        <div *ngFor="let item of category.items; let i = index">
+          <a class="list-item"  [routerLink]="['detail', category.categories.name , item.name]"
+            routerLinkActive="active"><i class="fa fa-star-o" aria-hidden="true"></i> {{ item.name }}</a>
+          <p><i>{{ item.ingredeints }}</i></p>
+        </div>
+      </div>
+    </li>
+  </ul>

@@ -1,0 +1,8 @@
+.FilterBackground td{padding:2px 0}
+a.FilterLink{color:#fff;}
+
+@media (max-width:767px)
+{
+    .FilterBackground{text-align:center}
+    .FilterBackground tr,.FilterBackground td{display:inline-block; padding:5px}
+}

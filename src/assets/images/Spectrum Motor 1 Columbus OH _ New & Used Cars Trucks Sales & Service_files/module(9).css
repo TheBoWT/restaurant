@@ -1,0 +1,134 @@
+﻿.refineSearch .btn-primary{float:left; border:none}
+.pagerArrows .dxp-summary{display:none}
+
+.i06r_sorting{margin-top:0.5em}
+.i06r_sorting,.i06r_sortBy,.i06r_perPage{float:right; margin-left:1em}
+
+.refineOptionsWrap{position:relative}
+.i06r_filterRow{width:100%; position:relative; z-index:8}
+.dxnbLite{width:100%; position:relative; border-top:solid 1px #000;  padding:2em 1em 0 1em}
+.dxnbLite .dxnb-gr{min-width:140px; display:inline-block; margin:0 1% 2em 0; vertical-align:top; position:relative}
+.dxnbLite .dxnb-header, .dxnbLite .dxnb-headerCollapsed,.dxnbLite .dxnb-content{background:#f7f7f7}
+.dxnbLite .dxnb-content{position:absolute; top:2em; left:0; width:100%; z-index:9}
+#searchItemWrap>div{display:inline-block}
+.refinedBtn,.removeBTN{background:#333; margin:0.5em; display:inline-block; padding:0.5em 1em; color:#f7f7f7; border-radius:5px}
+.removeBTN{padding:0.6em 1em}
+.refineIMG{vertical-align:middle}
+
+.vehicleTrim,.dxpLite .dxp-num ,.dxpLite .dxp-ellip{display:none}
+
+.filterBtnWrap{float:left}
+.pagerCount{float:left; margin:0.5em 0 0 1em}
+.dxpLite{padding:0}
+.dxpLite .dxp-button{margin:0; padding:0}
+.pagerLeft,.pagerRight{background:#000; height:auto; width:auto; margin:0 0 0 1em; padding:0.4em 0; display:block;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px; }
+.pagerLeft:before,.pagerRight:before{display:inline-block;font-family: FontAwesome;-webkit-font-smoothing: antialiased; font-style:normal; font-size:1.7em; vertical-align:middle; width:1.7em}
+.pagerLeft:before{content:"\f053"}
+.pagerRight:before{content:"\f054"}
+.dxp-button img{display:none}
+.dx-clear{display:none; clear:none}
+
+.carFaxFourPillars{margin-top:2em; border-top:solid 1px; padding-top:2em; color:#fff; text-align:center}
+.carFaxFourPillarsLogo{background:#fff; padding:3px; border-radius:3px; margin:0 auto; display:inline-block;}
+.carFaxFourPillars h4{margin:1em; display:inline-block; color:inherit}
+.pillarWrap{display:inline-block; width:50%; vertical-align:middle}
+.pillarWrap div{display:inline-block; text-align:left; vertical-align:middle; width:49%; margin:.5em 0}
+.filterSide .pillarWrap{width:auto}
+.filterSide .pillarWrap div{display:block; margin-bottom:1em; width:auto}
+.carFaxFourPillars div img{width:25px; vertical-align:middle; margin:0 .5em; display:inline-block}
+.carFaxFourPillars input[type=checkbox]{margin:0 .5em 0 0; vertical-align:middle}
+
+.openSearchDiv{margin-top:2em; border-top:solid 1px; padding-top:1em}
+.openSearchLbl{display:block; font-weight: bold;font-family: "Arial Narrow", Arial, sans-serif; font-size:1.3em; text-transform:uppercase}
+.openSearch {width:100%; margin-bottom:1em; padding:.5em}
+.alert {margin: 1em auto;text-align: center}
+
+/* move to dealer.css*/
+.btn-primary,.pagerLeft:hover,.pagerRight:hover,.dxnbLite,.vehicleTitle,.i06r_priceWrap{background:#ab0000}
+
+.i06r_highlight,.i06r_certified{display:none}
+.i06r_vehicle .row{border:solid 1px #000; margin:0.5em 1em; position:relative; overflow:hidden}
+.vehicleTitle,.i06r_priceWrap{position:absolute;left:0; width:100%; margin:0; text-align:center; padding:0.2em 0;opacity:0; transition:opacity .5s ease-in-out;text-shadow: #000 2px 2px;}
+.vehicleTitle{top:0;padding:0.2em 0}
+.vehicleTitle a{color:#fff}
+.i06r_priceWrap{bottom:0;font-size:1.5em; color:#fff}
+.i06r_priceWrap a {color:#fff}
+
+.i06r_image {position: relative;}
+.i06r_image:before {display: block; content: ""; width: 100%; padding-top: 75%;}
+.i06r_image img {position: absolute; top: 0; right: 0; bottom: 0; left: 0;}
+
+
+.i06r_vehicle:hover .vehicleTitle,.i06r_vehicle:hover .i06r_priceWrap{opacity:1}
+
+.i06r_filterRow.filterSide{width:280px;height:100% !important;padding:10px;position:fixed;top:0;left:0;z-index:1030;overflow-x:hidden;background:rgba(0,0,0,0.5)}
+.i06r_searchLbl{display:inline-block}
+.i06r_searchLbl{font-size:1.2em; margin:0 1em 0 0; display:block}
+.filterSide .i06r_searchLbl{margin:1em 0; color:#fff; }
+.dxnbLite{background:none; width:100%; margin:0; padding:0; display:inline-block; float:none}
+.filterSide .dxnbLite{background:none; width:100%; margin:0; padding:0; display:inline-block; float:none}
+/*.dxnbLite{background:none; width:auto; margin:0; padding:0; display:inline-block; float:none}*/
+.dxnbLite .dxnb-header, .dxnbLite .dxnb-headerCollapsed{background:none}
+.dxnbLite .dxnb-gr{display:inline-block; margin:0 5px 5px 0; vertical-align:top; position:relative;width:24%}
+.filterSide .dxnbLite .dxnb-gr{width:100%}
+.dxnbLite .dxnb-header,.dxnbLite .dxnb-headerCollapsed,.CarCount{background: #f7f7f7;border: solid 1px #A8A8A8;font-weight: bold;overflow: hidden;padding: 4px 17px;cursor: pointer;clear: both;width:auto}
+.dxnbLite .dxnb-content{list-style: none none outside;margin: 0;padding: 5px;overflow: hidden;border: solid 1px #A8A8A8;border-top-width: 0;background:#fff;line-height:20px; position:absolute; z-index:10; width:100%}
+.filterSide.i06r_closeSide,.filterSide.removeBTN{width:100%;display:block; text-align:center}
+.searchParameters>div{display:inline-block; vertical-align:middle}
+.searchParameters>div>div,.removeBTN{display:inline-block; margin:0 5px 10px 0; background:#eee; border:solid 1px #ddd; padding:0.5em 1em; font-size:1.2em;vertical-align:top}
+.searchParameters>div *{vertical-align:middle}
+.openSearchDiv{margin-top:2em; border-top:solid 1px; padding-top:1em}
+.openSearchLbl{display:block; color:#fff}
+.openSearch {width:100%; margin-bottom:1em; padding:.5em}
+.alert {margin: 1em auto;text-align: center}
+
+.filterSide .searchParameters>div>div{margin: 0;background:none;border:none;padding:0;font-size: 1.2em;vertical-align: top;}
+
+.i06r_closeSide{display:none;font-size:1.2em;margin:0 0 1em 0;padding:5px 15px;text-transform:uppercase;font-style:italic;background-color: #eee;border-radius:0; border:solid #ccc 1px;vertical-align:middle}
+.filterSide .i06r_closeSide{display:block}
+.removeBTN{vertical-align:top;}
+.filterSide .removeBTN{ background:#333}
+
+.filterSide .searchParameters{margin-top:2em}
+.searchParameters2 {margin: 1em 0}
+.searchParameters2 div{display:inline-block}
+.searchParameters2 .well-inverse,.removeXBtn{background:#ccc; margin-right:1em}
+.searchParameters2 .well-inverse span{padding:.5em 1em; display:inline-block; border-right:solid 1px; color:#000}
+.searchParameters2 .well-inverse .refineX, .removeXBtn {padding:.7em 1em .7em .7em;display: inline-block;color: #000}
+.filterSide .refinedBtn, .filterSide .removeBTN{margin:0 1em 0 0}
+.filterSide .refineIMG{font-weight:bold; text-transform:uppercase; color:#000}
+.well-cylinders{padding-left:1em}
+.filterSide .dxnbLite .dxnb-content{position:relative}
+
+.filterSide a.refineIMG{background:none}
+.filterSide .refinedBtn, .filterSide .removeBTN{background:#ccc; color:#000}
+
+@media (min-width: 768px) {
+    .sortBtn { display: none; }
+}
+@media (min-width: 992px) and (max-width: 1199px) 
+{
+    .carFaxFourPillarsLogo{width:200px;}
+}
+
+@media (min-width: 768px) and (max-width: 992px) 
+{
+    .pagerCount{clear:left; margin-left:0}
+	.pillarWrap{width:auto}
+}
+@media (max-width:767px)
+{
+    .pagerCount{clear:left; margin:1.3em 0 .5em 0}
+    .i06r_sorting{clear:right;text-align:right}
+    .sortBtn{background:none; border:none; margin:1em 0;}
+    .i06r_perPage{clear:right}
+    .i06r_sortBy{margin:1em 0; clear:right}
+    .dxnbLite .dxnb-gr{width:100%}
+	.pillarWrap{width:auto}
+    
+}
+@media (max-width:480px)
+{
+	.dxnbLite .dxnb-gr{font-size:1.3em}
+	.pillarWrap div{width:auto}
+}

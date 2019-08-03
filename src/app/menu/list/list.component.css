@@ -1,0 +1,37 @@
+.active{
+  color: #fff;
+  background-color: blue;
+}
+
+.list{
+  margin-top: 1rem;
+  padding: 1rem .5rem;
+  list-style: none;
+  box-shadow: .2rem .3rem .5rem #eee;
+  background-image: radial-gradient(rgb(95, 151, 236), rgb(150, 191, 233));
+  color: #eee;
+}
+.list-item{
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: #eee;
+  display: inline-block;
+  width: 90%;
+  font-style: italic;
+  margin-left: 1rem;
+}
+.list-item:hover{
+  color: #fff;
+  background-color: blue;
+}
+.category{
+  font-size: 2rem;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+}
+.icon{
+  position: absolute;
+  right: 5px;
+}

@@ -1,0 +1,40 @@
+<div class="container">
+  <div *ngIf="!user else notLoggedIn">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1>Hello</h1>
+      <p>Sign in or <a routerLink="/signup">Create an account</a></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-6">
+      <form [formGroup]="formData" (ngSubmit)="onSiginIn()">
+        <div class="form-group">
+          <input id="email" class="form-control" type="email" placeholder="Email" formControlName="email" required>
+        </div>
+        <div class="form-group">
+          <input id="password" class="form-control" type="password" placeholder="Password" formControlName="password" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" [disabled]="!formData.valid">Sign in</button>
+      </form>
+      <p>{{ statusMsg }}</p>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <app-siginwith></app-siginwith>
+    </div>
+
+  </div>
+  </div>
+  <ng-template #notLoggedIn>
+    <div class="row">
+      <div class="col-sm-12 text-center mt-5">
+        You're logged in. <a class="btn btn-outline-primary" routerLink="/menu">Continue Shopping</a> <br><a class="status" (click)="this.authService.signOut()">Not {{ user.displayName }}?</a>
+      </div>
+    </div>
+  </ng-template>
+
+</div>
+
+
+

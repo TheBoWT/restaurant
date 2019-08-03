@@ -1,0 +1,14 @@
+.responsiveCustomFormWrap{width:70%}
+.responsiveCustomFormWrap label{display:block; margin:0.5em 0}
+.responsiveCustomFormWrap input,.responsiveCustomFormWrap select{width:98%}
+.responsiveCustomFormWrap select{padding:0.25em 0}
+.tradeFormOptions{width:98%}
+.contentArea .tradeFormOptions input,.contentArea .tradeFormOptions label{width:auto; margin:0.5em;display:inline-block}
+.dcsFormTxtBox{width:98%; height:120px}
+.responsiveCustomFormWrap input[type=submit]{margin:1em 0}
+
+@media (max-width:992px)
+{
+    .responsiveCustomFormWrap{width:100%;}
+    
+}

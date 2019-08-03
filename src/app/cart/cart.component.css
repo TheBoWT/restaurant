@@ -1,0 +1,13 @@
+.notice{
+  border-top: blue inset 2px;
+  border-right:  1px silver solid;
+  border-bottom:  1px silver solid;
+  border-left:  1px silver solid;
+  padding: 1rem;
+  margin-bottom: 20px;;
+  text-align: center;
+}
+a{
+  cursor: pointer;
+}
+

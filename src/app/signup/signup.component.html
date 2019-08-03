@@ -1,0 +1,56 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-sm-12 text-right">
+      <p>Already a member? <a routerLink="/login">Sign in</a></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-6">
+      <form [formGroup]="formData" (ngSubmit)="onSignup()">
+        <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="firstName">First Name</label>
+          <input id="firstName" class="form-control"  formControlName="firstName" required>
+        </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="email">Email</label>
+          <input id="email" class="form-control" type="email" name="" formControlName="email" required>
+        </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group col-md-12 password">
+          <label for="password">Password</label>
+          <input id="password" class="form-control " type={{type}} formControlName="password" required>
+          <span class="showPassword">
+              <input type="checkbox" (change)="showPassword()">
+          </span>
+        </div>
+
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" [disabled]="!formData.valid">Create Account</button>
+      </form>
+      <p class="text-success">{{ statusMsg }}</p>
+    </div>
+    <div class="col-sm-12 col-md-6">
+     <app-siginwith></app-siginwith>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

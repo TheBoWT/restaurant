@@ -1,0 +1,16 @@
+.sepBar
+{
+    margin:0; padding:0.4em 0 0.5em 1em; color:#fff;min-height:1.2em;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FF0000),color-stop(1, #630606));
+    background-image: -o-linear-gradient(bottom, #FF0000 0%, #630606 100%);
+    background-image: -moz-linear-gradient(bottom, #FF0000 0%, #630606 100%);
+    background-image: -webkit-linear-gradient(bottom, #FF0000 0%, #630606 100%);
+    background-image: -ms-linear-gradient(bottom, #FF0000 0%, #630606 100%);
+    background-image: linear-gradient(to bottom, #FF0000 0%, #630606 100%);
+    font-size:1.3em;
+}
+h1.dealerTitle,h1.dcsTitle{font-size:1.3em; margin:0 0 1em 0}
+
+/*popup*/
+
+.mfp-content>div{background:#cecece;  margin:0 auto; padding:2em}

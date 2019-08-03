@@ -1,0 +1,81 @@
+/***** BACKGROUNDS *****/
+body {background: #fff;
+    background-size: cover;}
+#Pane3_wrap {background: #eaeaea;
+    background: linear-gradient(rgba(235,235,235,.8),rgba(235,235,235,.8)), url(images/carsbg2.jpg) top center no-repeat;
+    background-size: cover;}
+#Footer_wrap {background: #a60b09;
+    background: linear-gradient(rgba(165,10,10,.9),rgba(165,10,10,.9)),/*Color1 in RGB*/ url(images/carsbg2.jpg) bottom center no-repeat;
+    background-size: cover;}
+
+
+
+/***** BANNER TEXT *****/
+/* Overall Font Size */
+.dcsBannerText {font-size: 12px;}
+/* Text Shadow/Outline */
+.dcsBannerText p {text-shadow: 0px 1px 1px #fff;}
+.dcsBannerText p span {text-shadow: 0px 3px 2px #000;}
+
+
+
+/***** COLOR SCHEME *****/
+/*Transparencies*/
+.s54r_header, .navbar-nav .dropdown-menu, .ResponsiveBanner .carousel-control.left i:before, .ResponsiveBanner .carousel-control.right i:before
+{background: rgba(0, 0, 0, 0.85);}
+
+/*Solid Colors*/
+/*Color1*/
+#s54r_menu .nav>li>a:hover, #s54r_menu .nav>li>a:active, #s54r_menu .nav>li>a:focus, #s54r_menu .nav .open>a, #s54r_menu .nav .open>a:hover, #s54r_menu .nav .open>a:focus,  #s54r_menu .dropdown-menu > li > a:hover, .ResponsiveSearch input[type="submit"], .s54r_Pane3 .highlightRow, .seeEntireInv, .top, #refineSearchSwitch, #s54r_menu #siteMenu, .dcsBannerBtn a, .responsiveCustomFormWrap input[type="submit"], .vehicleTitle, .i06r_priceWrap, .s54r_Pane6 .getDirections a
+{background: #a60b09}
+/*Color2*/
+#Pane6_wrap, .ResponsiveSearch input[type="submit"]:hover, .seeEntireInv:hover, .responsiveCustomFormWrap input[type="submit"]:hover, #Footer_wrap .socialMedia a i, .highlightRow {background: #0f0f0f}
+
+/*Text Colors*/
+/*Color1*/
+a, .returnLink a, .ctaBtn .fa, .LabelAddress1:before, .LabelPhone1:before, .LabelPhone2:before, .LabelPhone3:before, .LabelEmail:before, #s54r_menu #siteMenu:after, .s54r_Pane6 .LabelPhone1, .dcsBannerText p, .dcsBannerBtn a, .dcsBannerBtn a:hover, .dcsBannerBtn a:hover span, #s54r_menu .visible-xs .dropdown-menu li a, .ctaBtn h3 {color: #a60b09}
+.responsiveCustomFormWrap fieldset input::-webkit-input-placeholder {color: #a60b09}
+.responsiveCustomFormWrap fieldset input::-moz-placeholder {color: #a60b09}
+.responsiveCustomFormWrap fieldset input:-moz-placeholder {color: #a60b09}
+.responsiveCustomFormWrap fieldset input:-ms-input-placeholder {color: #a60b09}
+/*Color2*/
+.s54r_tert .AddressAndPhone2 .LabelDealershipName, h1.dcsTitle, h1.dealerTitle {color: #8c0200}
+
+/*Borders*/
+.top {
+    border: 1px solid #0f0f0f;}
+
+
+
+/*PANE 1 SHOPPING OPTIONS*/
+#Pane1_wrap {background: #865f5f; /*A lighter Shade of Color 1*/
+    background-image: -webkit-linear-gradient(60deg, rgba(0,0,0,.75) 0%, rgba(0,0,0,.40) 20%, rgba(0,0,0,.2) 40%, rgba(0,0,0,.3) 60%, rgba(0,0,0,.6) 80%, rgba(0,0,0,.8) 100%);
+    background-image: -moz-linear-gradient(60deg, rgba(0,0,0,.75) 0%, rgba(0,0,0,.40) 20%, rgba(0,0,0,.2) 40%, rgba(0,0,0,.3) 60%, rgba(0,0,0,.6) 80%, rgba(0,0,0,.8) 100%);
+    background-image: -o-linear-gradient(60deg, rgba(0,0,0,.75) 0%, rgba(0,0,0,.40) 20%, rgba(0,0,0,.2) 40%, rgba(0,0,0,.3) 60%, rgba(0,0,0,.6) 80%, rgba(0,0,0,.8) 100%);
+    background-image: linear-gradient(60deg, rgba(0,0,0,.75) 0%, rgba(0,0,0,.40) 20%, rgba(0,0,0,.2) 40%, rgba(0,0,0,.3) 60%, rgba(0,0,0,.6) 80%, rgba(0,0,0,.8) 100%);
+    background-size: 200% 150%;}
+
+
+
+/*CUSTOM CODE HERE*/
+.i10r_optMPG, .i10r_optInterior, .i10r_optMileage, .i10r_optInterior {display: none;}
+
+
+
+/***** MEDIA QUERIES *****/
+@media (max-width:1199px) {
+
+}
+@media (max-width:991px) {
+    .s54r_header {background: rgba(0,0,0,.95)}
+}
+@media (max-width:767px) {
+	.i10r_highlight, .i10r_certified {border-radius: 0;}
+	.AddressAndPhone .LabelEmail, .AddressAndPhone .LabelPhone1, .AddressAndPhone .LabelPhone2, .AddressAndPhone .LabelPhone3 { 
+		border: none;
+		display: block;}
+	.AddressAndPhone .LabelPhone1, .AddressAndPhone .LabelPhone2, .AddressAndPhone .LabelPhone3 {
+		font-size: 26px;}
+}
+@media (max-width:480px) {
+}

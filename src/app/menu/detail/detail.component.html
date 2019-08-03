@@ -1,0 +1,13 @@
+<div class="mt-3 text-center">
+  <img src="{{ item.imgPath }}" alt="" class="img-fluid" style="width: 650px; height: 350px;">
+  <h1>{{ item.name }}</h1>
+  <p>{{ item.desc }}</p>
+  <em>{{ item.ingredients.join(' | ') }}</em><br>
+
+  <button class="btn btn-outline-success w-50" (click)="onAddtoCart(item)">Add to Cart</button>
+</div>
+
+
+
+
+
