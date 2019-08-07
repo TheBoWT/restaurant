@@ -32,7 +32,7 @@ constructor(private router: Router, public authService: AuthService) {
 
 onUpdateQty(event, i: number){
   const val = event.target.value;
-  if(val.match(/^\d+$/)){
+  if(val.match(/^\d+$/) && val > 0){
      this.items[i].qty = +val;
      localStorage.setItem('cart', JSON.stringify(this.items));
 

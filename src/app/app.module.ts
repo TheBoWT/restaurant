@@ -12,7 +12,6 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { ListComponent } from './menu/list/list.component';
 import { DetailComponent } from './menu/detail/detail.component';
-import { ToggleDirective } from './toggle.directive';
 import { HomeComponent } from './home/home.component';
 import { environment } from 'src/environments/environment';
 import { LoginComponent } from './login/login.component';
@@ -46,7 +45,6 @@ const appRoutes: Routes = [
     MenuComponent,
     ListComponent,
     DetailComponent,
-    ToggleDirective,
     HomeComponent,
     LoginComponent,
     SignupComponent,
