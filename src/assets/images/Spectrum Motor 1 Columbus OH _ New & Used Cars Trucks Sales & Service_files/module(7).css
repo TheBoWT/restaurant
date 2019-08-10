@@ -1,9 +1,0 @@
-.FilterByType_Main ul{margin:0; padding:0}
-.FilterByType_Main li {
-background:#000;
-width:80px;
-display: inline-block;
-list-style-type: none;
-margin: 10px 0 0 0;
-}
-.FilterByType_Main li.FilterByType_li9,.FilterByType_Main li.FilterByType_li10{display:none}
